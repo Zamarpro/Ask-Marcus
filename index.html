@@ -925,19 +925,7 @@
   </div>
 </div>
 
-<!-- ── SETUP GUIDE ── -->
-<div class="app-container">
-  <div class="setup-banner" id="setup-guide">
-    <h4>⚙️ Setup Instructions for Marcus</h4>
-    <p>This app is ready to deploy. Before going live, complete these 3 steps:</p>
-    <ol>
-      <li><strong>Add your Anthropic API key:</strong> Replace <code>YOUR_ANTHROPIC_KEY</code> in the script below (or set it server-side — recommended for production)</li>
-      <li><strong>Connect Stripe:</strong> Replace <code>YOUR_STRIPE_MONTHLY_LINK</code>, <code>YOUR_STRIPE_ANNUAL_LINK</code>, and <code>YOUR_STRIPE_TEAM_LINK</code> with your actual Stripe Payment Links from your Stripe Dashboard</li>
-      <li><strong>Email capture backend:</strong> Replace <code>YOUR_EMAIL_ENDPOINT</code> with your form submission endpoint (Mailchimp, ConvertKit, Zapier webhook, or any CRM). Leads are already being captured in <code>localStorage</code> as a fallback.</li>
-    </ol>
-    <p style="margin-top:12px; font-size:13px; color:rgba(245,237,216,0.5);">Remove this banner before publishing by deleting the <code>setup-guide</code> div.</p>
-  </div>
-</div>
+
 
 <footer class="site-footer">
   <p>© 2024 Honest Worship · RAW Consulting · info@rawconsulting.co</p>
@@ -954,7 +942,7 @@ const CONFIG = {
   STRIPE_MONTHLY: 'https://buy.stripe.com/6oUdRa6wOgcf0wfb4oe7m07',
   STRIPE_ANNUAL:  'https://buy.stripe.com/00w7sM2gy5xBgvdc8se7m09',
   STRIPE_TEAM:    'https://buy.stripe.com/28E8wQcVcgcf1AjgoIe7m08',
-  EMAIL_ENDPOINT: 'YOUR_EMAIL_ENDPOINT',     // e.g. Zapier webhook or Mailchimp API
+  EMAIL_ENDPOINT: 'https://forms.gle/mwr1BbgJZKk5ji5ZA',
 };
 
 // Marcus's persona — this is the system prompt that makes the AI sound like you
